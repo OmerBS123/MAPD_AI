@@ -1,0 +1,80 @@
+Zero sum game:
+
+
+Winner player 1
+
+#X 2
+#Y 2
+#P 0 1 0  D 1 0 13
+#P 0 2 0  D 2 0 13
+#Z 0 0
+#Z 2 0
+
+#X 1
+#Y 2
+#P 0 1 0  D 1 0 13
+#P 0 2 0  D 0 0 13
+#Z 0 0
+#Z 1 0
+
+Winner player 2
+
+#X 2
+#Y 2
+#P 2 1 0  D 1 1 6
+#Z 0 0
+#Z 2 0
+
+
+Sem-cop game:
+
+
+Draw:
+
+#X 1
+#Y 2
+#P 0 1 0  D 1 0 13
+#P 1 1 0  D 0 0 13
+#S 0 0
+#S 1 0
+
+
+
+
+where full co-op makes a bigger TS then Semi co-op
+in Semi co-op the core is: agent 1: 2  agent 2: 1
+and in full co-op agent 1: 2  agent 2: 2 meaning draw but a bigger TS
+
+#X 6
+#Y 0
+#P 2 0 0  D 3 0 13
+#P 3 0 0  D 1 0 13
+#P 4 0 0  D 3 0 13
+#P 5 0 0  D 1 0 13
+#W 0 0
+#W 6 0
+
+
+where full co-op makes a bigger TS then Zero sum
+here the end resault is: agent  1:3 agent 2:0 in Zero sum
+and in full co-op agent 1: 2  agent 2: 2 meaning draw but a bigger TS
+
+#X 6
+#Y 0
+#P 2 0 0  D 3 0 13
+#P 3 0 0  D 1 0 13
+#P 4 0 0  D 3 0 13
+#P 5 0 0  D 1 0 13
+#W 0 0
+#W 6 0
+
+compared to:
+
+#X 6
+#Y 0
+#P 2 0 0  D 3 0 13
+#P 3 0 0  D 1 0 13
+#P 4 0 0  D 3 0 13
+#P 5 0 0  D 1 0 13
+#W 0 0
+#W 6 0
